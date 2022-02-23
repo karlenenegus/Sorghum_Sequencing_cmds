@@ -35,14 +35,14 @@ Some info may need to be changed to match a specific project. Pay specific atten
 Check file names
 * reference fasta
 
-Modules used
+Modules
 * bwa
 
 #### 1_data.sbatch
 Check file names
 * pair end files extensions (currently works for files ending in \*R1_001.fastq & \*R2_001.fastq)
 
-Modules used
+Modules
 * python
 * parallel
 * py-cutadapt
@@ -52,7 +52,7 @@ Modules used
 Check file names
 * fastq file extension (currently listed as \*.fastq)
 
-modules
+Modules
 * fastqc
 
 #### 3_mapping.sbatch
